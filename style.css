@@ -5,7 +5,6 @@
   text-align: center;
   padding:0px 100px;
 }
-
 #steps {
   text-align: center;
 }
@@ -44,7 +43,7 @@ hr{
   margin-top: 30px;
 }
 
-/* ADAPTIVE FOR DISPLAY TABLET >= 421px <=768px*/
+/* ADAPTIVE FOR DISPLAY TABLET 991px*/
 @media screen and (max-width: 991px){
   .container{
     margin:50px auto;
@@ -76,9 +75,9 @@ hr{
     padding:0px 50px;
   }
 }
-/* ADAPTIVE FOR DISPLAY TABLET >= 421px <=768px */
+/* ADAPTIVE FOR DISPLAY TABLET 991px */
 
-/* ADAPTIVE FOR DISPLAY MOBILE PHONE <=420px */
+/* ADAPTIVE FOR DISPLAY MOBILE PHONE 767px */
 @media screen and (max-width: 767px){
   .container{
     margin:30px auto;
@@ -103,4 +102,4 @@ hr{
     padding:0px 25px;
   }
 }
-/* ADAPTIVE FOR DISPLAY MOBILE PHONE <=420px */
+/* ADAPTIVE FOR DISPLAY MOBILE PHONE 767px */
