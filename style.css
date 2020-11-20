@@ -1,0 +1,106 @@
+.container{
+  margin-top: 100px;
+}
+#lezioni {
+  text-align: center;
+  padding:0px 100px;
+}
+
+#steps {
+  text-align: center;
+}
+#steps .container {
+  margin-top: 0;
+}
+#why {
+  text-align: center;
+}
+
+#why .col-lg-12{
+  margin-top: 80px;
+}
+
+#why .container img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px
+}
+
+.grey {
+  background-color: #f9f9f9;
+  margin-top: 100px;
+}
+
+img {
+  height: 200px;
+}
+.clear {
+  clear: both;
+}
+h1{
+  margin-bottom: 20px;
+}
+hr{
+  margin-top: 30px;
+}
+
+/* ADAPTIVE FOR DISPLAY TABLET >= 421px <=768px*/
+@media screen and (max-width: 991px){
+  .container{
+    margin:50px auto;
+  }
+  img{
+    height: 150px;
+    margin: 20px 0px;
+  }
+  h1{
+    font-size: 45px;
+  }
+  h3{
+    font-size: 20px;
+  }
+  #steps img{
+    height: 150px;
+  }
+  #why .container img {
+    height: 130px;
+  }
+  #why .col-lg-12{
+    margin-top: 60px;
+  }
+  .grey {
+    background-color: #f9f9f9;
+    margin-top: 50px;
+  }
+  #lezioni {
+    padding:0px 50px;
+  }
+}
+/* ADAPTIVE FOR DISPLAY TABLET >= 421px <=768px */
+
+/* ADAPTIVE FOR DISPLAY MOBILE PHONE <=420px */
+@media screen and (max-width: 767px){
+  .container{
+    margin:30px auto;
+  }
+  h1{
+    font-size: 35px;
+  }
+  #steps img{
+    height: 120px;
+  }
+  #why .container img {
+    height: 100px;
+  }
+  #why .col-lg-12{
+    margin-top: 40px;
+  }
+  .grey {
+    background-color: #f9f9f9;
+    margin-top: 25px;
+  }
+  #lezioni {
+    padding:0px 25px;
+  }
+}
+/* ADAPTIVE FOR DISPLAY MOBILE PHONE <=420px */
